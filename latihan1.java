@@ -13,9 +13,9 @@ public class latihan1 {
         System.out.println("Masukan jarak tempuh: ");
         jarakTempuh = sc.nextInt();
 
-        biayaMobil = 300000 * lamaSewa;
-        biayaSupir = 200000 * lamaSewa;
-        biayaBBM = 1000 * jarakTempuh;
+        biayaMobil = 400000* lamaSewa;
+        biayaSupir = 150000 * lamaSewa;
+        biayaBBM = 30000 * jarakTempuh;
 
         totalBiaya = biayaMobil + biayaSupir + biayaBBM;
         System.out.println("Jadi total biaya " + totalBiaya);

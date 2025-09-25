@@ -19,7 +19,7 @@ public class latihan1 {
 
         totalBiaya = biayaMobil + biayaSupir + biayaBBM;
         System.out.println("Jadi total biaya " + totalBiaya);
-
+        System.out.println("Halo ini linda");
         sc.close();
     }
 }
